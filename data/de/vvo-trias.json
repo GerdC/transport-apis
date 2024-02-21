@@ -1,0 +1,31 @@
+{
+    "name": "vvo",
+    "coverage": {
+        "realtimeCoverage": {
+            "area": {
+                "coordinates": [
+                    [ [ 11.8723081683, 51.6831408995 ], [ 15.0377433357, 51.6831408995 ], [ 15.0377433357, 50.1715419914 ], [ 11.8723081683, 50.1715419914 ], [ 11.8723081683, 51.6831408995 ] ]
+                ],
+                "type": "Polygon"
+            },
+            "region": [ "DE-SN" ]
+        },
+        "regularCoverage": {
+      		"region": ["DE"]
+    	}
+    },
+    "options": {
+        "endpoint": "http://efa.vvo-online.de:8080/std3/trias",
+        "isTestingEndpoint": false,
+        "triasVersion": 1.1,
+        "requestContentType": "text/xml",
+        "requiresSignUp": false,
+        "requiresContract": false,
+        "providedServices": ["TripRequest", "StopEventRequest", "LocationInformationRequest"]
+    },
+    "supportedLanguages": [ "en", "de" ],
+    "timezone": "Europe/Berlin",
+    "type": {
+        "trias": true
+    }
+}
